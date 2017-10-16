@@ -513,7 +513,7 @@
 
 	// Features 3 Animate
 	var features3Animate = function() {
-		if ( $('#fh5co-features-3').length > 0 ) {	
+		if ( $('#fh5co-features-3').length > 0 ) {
 			$('#fh5co-features-3 .to-animate').each(function( k ) {
 				
 				var el = $(this);
@@ -547,6 +547,46 @@
 					
 					$(this.element).addClass('animated');
 						
+				}
+			} , { offset: '75%' } );
+		}
+	};
+	// Features 3 Animate
+	var features4Animate = function() {
+		if ( $('#fh5co-features-4').length > 0 ) {
+			$('#fh5co-features-4 .to-animate').each(function( k ) {
+
+				var el = $(this);
+
+				setTimeout ( function () {
+					el.addClass('fadeInUp animated');
+				},  k * 200, 'easeInOutExpo' );
+
+			});
+		}
+	};
+	var features4WayPoint = function() {
+		if ( $('#fh5co-features-4').length > 0 ) {
+			$('#fh5co-features-4').waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this).hasClass('animated') ) {
+
+
+
+
+					setTimeout(function(){
+						$('.features3-animate-1').addClass('fadeIn animated');
+					}, 200);
+
+					setTimeout(function(){
+						$('.features3-animate-2').addClass('fadeIn animated');
+					}, 400);
+
+					setTimeout(features4Animate, 800);
+
+
+					$(this.element).addClass('animated');
+
 				}
 			} , { offset: '75%' } );
 		}
@@ -665,6 +705,7 @@
 		counterWayPoint();
 		productsWayPoint();
 		features3WayPoint();
+		features4WayPoint();
 		ctaWayPoint();
 		pricingWayPoint();
 		faqsWayPoint();
