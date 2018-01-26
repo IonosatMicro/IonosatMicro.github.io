@@ -302,7 +302,8 @@
                                                     <p class="fh5co-sub to-animate"
                                                        v-text="trans.satellite.subTitle"></p>
                                                     <div class="to-animate">
-                                                        <a href="https://youtu.be/-POoZHaMJaA" class="btn btn-primary"
+                                                        <a href="https://youtu.be/-POoZHaMJaA"
+                                                           class="btn btn-primary"
                                                            target="_blank"
                                                            v-text="trans.satellite.video"></a>
                                                     </div>
