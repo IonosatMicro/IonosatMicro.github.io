@@ -285,7 +285,11 @@
 
                     <div class="fh5co-bg-section cta" id="fh5co-cta"
                          style="background-image: url(images/hero_bg.jpg); background-attachment: fixed;">
-                        <div class="fh5co-overlay"></div>
+                        <div class="fh5co-overlay">
+                                <video width="100%" height="100%" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
+                                    <source src="video/satellite.mp4" type="video/mp4"></source>
+                                </video>
+                        </div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
@@ -514,34 +518,42 @@
                                     <li><a href="#" data-nav-section="home" v-text="trans.menu.home"></a></li>
                                     <li><a href="#" data-nav-section="about" v-text="trans.menu.about"></a></li>
                                     <li><a href="#" data-nav-section="general" v-text="trans.menu.general"></a></li>
-                                    <li><a href="#" data-nav-section="spacecraft" v-text="trans.menu.spacecraft"></a></li>
-                                    <li><a href="#" data-nav-section="instrumentation" v-text="trans.menu.instrumentation"></a></li>
+                                    <li><a href="#" data-nav-section="spacecraft" v-text="trans.menu.spacecraft"></a>
+                                    </li>
+                                    <li><a href="#" data-nav-section="instrumentation"
+                                           v-text="trans.menu.instrumentation"></a></li>
                                     <li><a href="#" data-nav-section="database" v-text="trans.menu.database"></a></li>
-                                    <li><a href="#" data-nav-section="participants" v-text="trans.menu.participants"></a></li>
-                                    <li><a href="#" data-nav-section="references" v-text="trans.menu.references"></a></li>
+                                    <li><a href="#" data-nav-section="participants"
+                                           v-text="trans.menu.participants"></a></li>
+                                    <li><a href="#" data-nav-section="references" v-text="trans.menu.references"></a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-3 col-sm-4 col-md-push-3">
                                 <h3 class="fh5co-lead" v-text="trans.footer.info.title"></h3>
                                 <ul>
                                     <li>
-                                        <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BE%D0%BD%D0%BE%D1%81%D0%B0%D1%82-%D0%9C%D1%96%D0%BA%D1%80%D0%BE" v-text="trans.footer.info.wikipedia"></a>
+                                        <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BE%D0%BD%D0%BE%D1%81%D0%B0%D1%82-%D0%9C%D1%96%D0%BA%D1%80%D0%BE"
+                                           v-text="trans.footer.info.wikipedia"></a>
                                     </li>
-                                    <li><a href="http://nearspace.ikd.kiev.ua/" v-text="trans.footer.info.site"></a></li>
+                                    <li><a href="http://nearspace.ikd.kiev.ua/" v-text="trans.footer.info.site"></a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-3 col-sm-4 col-md-push-3">
                                 <h3 class="fh5co-lead" v-text="trans.footer.links.title"></h3>
                                 <ul>
-                                    <li><a href="https://www.promis.ikd.kiev.ua/" v-text="trans.footer.links.PROMIS"></a></li>
+                                    <li><a href="https://www.promis.ikd.kiev.ua/"
+                                           v-text="trans.footer.links.PROMIS"></a></li>
                                     <li><a href="http://www.nkau.gov.ua/" v-text="trans.footer.links.SSAU"></a></li>
-                                    <li><a href="http://www.yuzhnoye.com/" v-text="trans.footer.links.yuzhnoye"></a></li>
+                                    <li><a href="http://www.yuzhnoye.com/" v-text="trans.footer.links.yuzhnoye"></a>
+                                    </li>
                                     <li><a href="http://www.ikd.kiev.ua/" v-text="trans.footer.links.ISR"></a></li>
                                 </ul>
                             </div>
 
                             <div class="col-md-3 col-sm-12 col-md-pull-9">
-                                <div class="fh5co-footer-logo"><a href="/"  v-text="trans.menu.brand"></a></div>
+                                <div class="fh5co-footer-logo"><a href="/" v-text="trans.menu.brand"></a></div>
                                 <p class="fh5co-copyright">
                                     <small>&copy; 2017. All Rights Reserved. <br> by <a
                                             href="https://alex-kovalchuk.site/"
