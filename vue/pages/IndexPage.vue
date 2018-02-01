@@ -37,7 +37,7 @@
                            data-target="#fh5co-navbar"
                            aria-expanded="false"
                            aria-controls="navbar">
-                            <span v-text="trans.menu.title"></span>
+                            <span v-text="trans.menu.title" class="hidden-xs"></span>
                             <i></i>
                         </a>
                         <a href="/" class="navbar-brand "><span v-text="trans.menu.brand"></span></a>
