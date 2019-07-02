@@ -174,29 +174,6 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <div id="fh5co-counter" class="fh5co-bg-section"
-                         style="background-image: url(images/bg_1.jpg); background-attachment: fixed;">
-                        <div class="fh5co-overlay"></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="fh5co-hero-wrap">
-                                        <div class="fh5co-hero-intro text-center to-animate counter-animate">
-                                            <div class="col-md-12 text-center">
-                                        <span class="fh5co-counter js-counter" data-from="0" data-to="2019"
-                                              data-speed="500" data-refresh-interval="50"></span>
-                                                <span class="fh5co-counter-label" v-text="trans.launch"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                     <div id="fh5co-products" data-section="instrumentation">
 
                         <div class="container">
@@ -286,9 +263,10 @@
                     <div class="fh5co-bg-section cta" id="fh5co-cta"
                          style="background-image: url(images/hero_bg.jpg); background-attachment: fixed;">
                         <div class="fh5co-overlay">
-                                <video width="100%" height="100%" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
-                                    <source src="video/satellite.mp4" type="video/mp4"></source>
-                                </video>
+                            <video width="100%" height="100%" preload="auto" autoplay="autoplay" loop="loop"
+                                   muted="muted">
+                                <source src="video/satellite.mp4" type="video/mp4"></source>
+                            </video>
                         </div>
                         <div class="container">
                             <div class="row">
@@ -558,7 +536,7 @@
                                 <div class="fh5co-footer-logo"><a href="/" v-text="trans.menu.brand"></a></div>
                                 <p class="fh5co-copyright">
                                     <small>&copy; 2017. All Rights Reserved. <br> by <a
-                                            href="https://alex-kovalchuk.site/"
+                                            href="https://alex-kovalchuk.pro/"
                                             target="_blank">mammut</a></small>
                                 </p>
                                 <p class="fh5co-social-icons">
