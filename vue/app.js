@@ -1,7 +1,10 @@
 import Vue from 'vue';
 
-Vue.component('index-page', require('./pages/IndexPage.vue'));
+import IndexPage from './pages/IndexPage';
 
-const app = new Vue({
+new Vue({
     el: '#app',
+    components: {
+        IndexPage
+    }
 });
